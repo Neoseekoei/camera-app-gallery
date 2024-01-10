@@ -73,7 +73,7 @@ const Cam = ({navigation}) => {
   return (
     <Camera style={styles.container} ref={cameraRef}>
       <View style={styles.buttonContainer}>
-      <TouchableOpacity onPress={() => navigation.navigate('Gallery')} style={styles.btnPic1}></TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate('Gallery')}><Text  style={styles.btnPic1}></Text></TouchableOpacity>
         <TouchableOpacity style={styles.btnPic} onPress={takePicture}>  
         </TouchableOpacity>
 

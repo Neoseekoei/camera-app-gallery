@@ -20,7 +20,7 @@ const Gallery = () => {
         data={galleryPhotos}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
-          <TouchableOpacity style={styles.imageContainer}>
+          <TouchableOpacity style={styles.imageContainer}>``
             <Image style={styles.galleryImage} source={{ uri: item.uri }} />
           </TouchableOpacity>
         )}

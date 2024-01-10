@@ -10,6 +10,8 @@ import Gallery from './components/Gallery';
 
 
 const Stack = createNativeStackNavigator();
+
+
 export default function App() {
   return (
     <NavigationContainer>
